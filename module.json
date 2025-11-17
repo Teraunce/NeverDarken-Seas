@@ -1,0 +1,135 @@
+{
+  "id": "seas-of-everglow",
+  "title": "Seas of Everglow",
+  "version": "0.7",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "ponyfinder-foundryvtt-module",
+        "type": "module",
+        "compatibility": {}
+      },
+	  {
+        "id":"teraunces-tangential-tome-of-trivia",
+				"type":"module",
+				"compatibility":{
+					
+				},
+				"manifest": "https://github.com/Teraunce/teraunces-tangential-tome-of-trivia/releases/latest/download/module.json"
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "princess-luminaces-guide-to-the-pony-pantheon",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Lorum Ipsum Dollar",
+  "authors": [
+    {
+      "name": "David Silver",
+      "discord": "davidsilver",
+      "flags": {}
+    },
+    {
+      "name": "Teraunce Foaloke",
+      "discord": "teraunce",
+      "flags": {}
+    }
+  ],
+  "url": "example.com",
+  "packs": [
+    {
+      "name": "soe-journals",
+      "label": "SOE Journals",
+      "path": "packs/soe-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "soe-actors",
+      "label": "SOE Actors",
+      "path": "packs/soe-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "soe-spells",
+      "label": "SOE Spells",
+      "path": "packs/soe-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "soe-main-pack",
+      "label": "SoE Main Pack",
+      "path": "packs/soe-main-pack",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "seas-of-everglow": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+        },
+        "featTraits": {
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Ponyfinder",
+      "sorting": "m",
+      "folders": [
+        {
+          "name": "Seas of Everglow",
+          "sorting": "m",
+          "packs": [
+            "soe-journals",
+            "soe-actors",
+            "soe-spells",
+            "soe-main-pack"
+          ]
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "manifest": "https://github.com/Teraunce/NeverDarken-Seas/releases/latest/download/module.json",
+  "download": "https://github.com/Teraunce/NeverDarken-Seas/releases/latest/download/seas-of-everglow.zip"
+}
